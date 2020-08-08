@@ -1,21 +1,26 @@
 {
-  "name": "kantv",
-  "version": "1.0.0",
+  "name": "kantv-dl",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "kantv-dl": "./scripts/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=8"
+  },
   "dependencies": {
-    "@babel/node": "^7.10.5",
     "axios": "^0.19.2",
-    "minimist": "^1.2.5",
-    "youtube-dl": "^3.0.2"
+    "minimist": "^1.2.5"
   },
   "devDependencies": {
+    "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.0",
     "jest": "^26.2.2"
   }
